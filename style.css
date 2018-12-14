@@ -1,0 +1,147 @@
+body,html   {
+	height:   100%;
+}
+
+h1{
+color:  orange;
+font-size: 36px;}
+
+
+.topnav {
+
+	background-color:  brown;
+	overflow:hidden;
+}
+
+.topnav  a  {
+	float:left;
+	color:  white;
+	padding:  16px 14px ;/*top right bottom left*/
+	margin: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size:20px;
+}
+
+
+.topnav  a:hover  {
+
+	background-color: skyblue;
+	color: black;
+}
+
+.topnav  a.active  {
+	background-color:  orange;
+	color:  white;
+
+}
+div.hero-image  {
+
+	background-image: url("../images/sky.jpg");
+	height: 100%;
+	background-position:  center;
+	background-repeat:   no-repeat;
+	background-size:    cover;
+	position:       relative;
+}
+
+
+div.hero-text  {
+
+	text-align:   center;
+	color:  orange;
+
+}
+
+div.hero-text h1   {
+	font-size:  3em;
+
+}
+
+div.hero-text  a  button  {
+	color:  white;
+	border-color:  brown;
+	background-color: brown;
+	padding:    10px;
+
+}
+
+
+.description    {
+
+	max-width:  1000px;
+	text-align:    center;
+	margin:      auto;
+	color:   blue;
+}
+
+.column   {
+
+	float:   left;
+	width: 33.33%;
+
+}
+
+.column   img   {
+
+	width:  80%;
+
+
+}
+
+
+.row   {
+
+	text-align:   center;
+	padding-bottom:  30px;
+
+}
+
+.row:after  {
+
+	content: "";
+	display: table;
+	clear: both;
+
+}
+
+footer   {
+
+	background-color:   yellow;
+	text-align:   center;
+	margin-top:  20px;
+	padding:   20px;
+
+}
+
+footer p {
+
+	color:   green;
+
+} 
+
+.column img  {
+
+	width:  100%;
+
+}
+
+
+@media screen and (min-width:   480px)  {
+
+	body  {
+		background-color:  skyblue;
+
+	}
+}
+
+
+
+@media screen and (max-width:  600px)    {
+
+	.column   {
+		width:   100%;
+
+	}
+}
+
